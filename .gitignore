@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# .NET 编译产物
+bin/
+obj/
+
 # Visual Studio 用户文件
 .vs/
 *.suo
