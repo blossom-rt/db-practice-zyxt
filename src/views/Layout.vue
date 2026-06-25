@@ -3,13 +3,13 @@
     <!-- 侧边栏 -->
     <el-aside :width="collapsed ? '64px' : '220px'" class="sidebar" :class="{ collapsed }">
       <!-- 系统标题 -->
-      <div class="sidebar-header" :title="collapsed ? '作业项目管理系统' : ''">
+      <div class="sidebar-header" :title="collapsed ? '采油厂油水井作业成本管理系统' : ''">
         <div class="sidebar-logo">
           <el-icon :size="22" color="#409EFF"><Platform /></el-icon>
         </div>
         <div class="sidebar-title" v-show="!collapsed">
-          <span class="sidebar-name">作业项目管理系统</span>
-          <span class="sidebar-sub">Oilfield Workover Management</span>
+          <span class="sidebar-name">采油厂油水井作业成本管理系统</span>
+          <span class="sidebar-sub">Oilfield Workover Cost Management</span>
         </div>
       </div>
       <!-- 导航菜单 -->

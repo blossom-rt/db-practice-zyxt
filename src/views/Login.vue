@@ -8,8 +8,8 @@
         <div class="logo-icon">
           <el-icon :size="28"><Platform /></el-icon>
         </div>
-        <h2>油田作业项目管理系统</h2>
-        <p class="login-subtitle">Oilfield Workover Management System</p>
+        <h2>采油厂油水井作业成本管理系统</h2>
+        <p class="login-subtitle">Oilfield Workover Cost Management System</p>
       </div>
       <el-form :model="form" label-position="top" size="large">
         <el-form-item label="用户名">
