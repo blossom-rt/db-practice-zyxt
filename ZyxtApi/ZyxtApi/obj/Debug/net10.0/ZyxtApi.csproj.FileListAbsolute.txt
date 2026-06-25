@@ -137,4 +137,4 @@ D:\桌面\Folder\Zyxt\ZyxtApi\ZyxtApi\obj\Debug\net10.0\ZyxtApi.genruntimeconfig
 D:\桌面\Folder\Zyxt\ZyxtApi\ZyxtApi\obj\Debug\net10.0\ref\ZyxtApi.dll
 D:\桌面\Folder\Zyxt\ZyxtApi\ZyxtApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Zyxt\ZyxtApi\ZyxtApi\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Zyxt\ZyxtApi\ZyxtApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Zyxt\ZyxtApi\ZyxtApi\obj\Debug\net10.0\ZyxtApi.sourcelink.json

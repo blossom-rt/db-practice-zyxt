@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZyxtApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+511208a5eb9de81d33502e63cdbbb9e48c64a14d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d289f30cd9d1e4acd9eaf422bdb0668c3d7bad2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZyxtApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZyxtApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
