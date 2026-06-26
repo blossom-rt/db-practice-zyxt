@@ -54,6 +54,7 @@ Win + R  →  services.msc  →  找到 SQL Server (SQLEXPRESS)  →  启动
 | others | `experiments/others/SQLQuery1.sql` | 用户表创建 + 种子数据 |
 | | `experiments/others/SQLQuery2.sql` | 作业项目触发器（操作日志） |
 | | `experiments/others/SQLQuery3-4.sql` | 触发器清理 |
+| fifth | `experiments/fifth/SQLQuery1.sql` | 实验五内容 |
 
 ### 2. 启动后端
 
