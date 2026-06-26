@@ -6,7 +6,7 @@ using ZyxtApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ===== 标准JWT Bearer鉴权 =====
+// 标准JWT Bearer鉴权
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {

@@ -165,7 +165,7 @@ const handleLogout = async () => {
 </script>
 <style scoped>
 .layout-container { height: 100vh; }
-/* ---------- 侧边栏 ---------- */
+/* 侧边栏 */
 .sidebar {
   background: #1f2d3d;
   display: flex;
@@ -247,7 +247,7 @@ const handleLogout = async () => {
   white-space: nowrap;
 }
 .el-menu-item.is-active { background: linear-gradient(135deg, rgba(64,158,255,.2), transparent) !important; }
-/* ---------- 主内容区 ---------- */
+/* 主内容区 */
 .main-area {
   padding: 0;
   background: var(--el-bg-color-page, #f5f7fa);
@@ -263,7 +263,7 @@ const handleLogout = async () => {
   flex-shrink: 0;
   transition: background .3s, border-color .3s;
 }
-/* ---------- 页面标题 ---------- */
+/* 页面标题 */
 .page-header {
   display: flex;
   align-items: center;
@@ -290,7 +290,7 @@ const handleLogout = async () => {
   flex: 1;
   overflow-y: auto;
 }
-/* ---------- 页面过渡 ---------- */
+/* 页面过渡 */
 .fade-enter-active, .fade-leave-active { transition: opacity .2s ease, transform .2s ease; }
 .fade-enter-from { opacity: 0; transform: translateY(8px); }
 .fade-leave-to { opacity: 0; transform: translateY(-4px); }

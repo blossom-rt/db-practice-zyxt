@@ -43,7 +43,7 @@ const form = ref({ username: '', password: '' })
 const remember = ref(false)
 const canvasRef = ref(null)
 
-// ---------- 粒子动画 ----------
+// 粒子动画
 let animationId = null
 let particles = []
 let mouse = { x: -1000, y: -1000 }

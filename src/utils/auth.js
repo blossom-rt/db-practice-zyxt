@@ -3,7 +3,7 @@ const ROLE_KEY = 'zyxt_role'
 const USERNAME_KEY = 'zyxt_username'
 const REMEMBER_KEY = 'zyxt_remember'
 
-// -------------------- 记住我标记 --------------------
+// 记住我标记
 function setRememberFlag(remember) {
   if (remember) {
     localStorage.setItem(REMEMBER_KEY, 'true')
@@ -15,7 +15,7 @@ function isRemembered() {
   return localStorage.getItem(REMEMBER_KEY) === 'true'
 }
 
-// -------------------- Token --------------------
+// Token
 export function setToken(token, remember = false) {
   // 当前会话始终存 sessionStorage
   sessionStorage.setItem(TOKEN_KEY, token)
@@ -38,7 +38,7 @@ export function removeToken() {
   localStorage.removeItem(REMEMBER_KEY)
 }
 
-// -------------------- 角色 --------------------
+// 角色
 export function setRole(role, remember = false) {
   sessionStorage.setItem(ROLE_KEY, role)
   if (remember) localStorage.setItem(ROLE_KEY, role)
@@ -53,7 +53,7 @@ export function removeRole() {
   sessionStorage.removeItem(ROLE_KEY)
 }
 
-// -------------------- 用户名 --------------------
+// 用户名
 export function getUsername() {
   return sessionStorage.getItem(USERNAME_KEY)
     || (isRemembered() ? localStorage.getItem(USERNAME_KEY) : null)
@@ -68,7 +68,7 @@ export function removeUsername() {
   sessionStorage.removeItem(USERNAME_KEY)
 }
 
-// -------------------- 辅助方法 --------------------
+// 辅助方法
 export function isAdmin() {
   return getRole() === '管理员'
 }
