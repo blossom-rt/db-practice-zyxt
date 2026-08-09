@@ -32,6 +32,7 @@
 - **SQL Server 2025** —— 数据库服务器
 - **Node.js 20+** —— 运行前端项目
 - 将 `ZyxtApi/ZyxtApi/appsettings.json` 中的数据库连接串改为你的环境
+> 也可以在 VS Code 中安装 C#、.NET 等相关插件，并配套 SQL Server 2025 进行数据库服务来实现全部的开发。
 
 ### 0. 启动 SQL Server 服务
 
